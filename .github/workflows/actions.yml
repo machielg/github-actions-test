@@ -1,8 +1,7 @@
 name: Actions Workflow
 
-on: 
-  schedule:
-    - cron: "*/5 * * * *"
+on:
+  public
 
 jobs:
   run-github-actions:
